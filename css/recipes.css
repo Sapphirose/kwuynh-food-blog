@@ -4,15 +4,6 @@
     margin: 80px 0;
 }
 
-.recipes__slider {
-    width: 60px;
-    height: 5px;
-    background-color: #ff2a6b;
-    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 0%); */
-
-    margin-bottom: 20px;
-}
-
 /* Recipes List */
 
 h2 {
@@ -36,8 +27,7 @@ ul.recipes__list img {
 ul.recipes__list > li {
     position: relative;
 
-    width: 33.333333%;
-    padding-right: 30px;
+    padding: 0 15px;
     margin-bottom: 30px;
 }
 
@@ -48,11 +38,13 @@ ul.recipes__list > li > img {
 .recipes-info {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 15px;
 
     background-color: #ff2a6b;
     color: white;
-    padding: 20px 30px;
+    padding: 20px 50px 20px 30px;
+
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
 }
 
 .recipes-info > h3 {
