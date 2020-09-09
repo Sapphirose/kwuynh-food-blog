@@ -52,12 +52,6 @@ p.topbar__account > span {
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 576px) {
-    p.topbar__account {
-        padding: ;
-    }
-}
-
 /* SECTION LOWER BAR */
 .lowerbar {
     background-color: white;
